@@ -2,6 +2,8 @@
 
 A translation bot for Matrix written in Rust
 
+![Example](examples/example.gif)
+
 ## Translate Conversations Using Yandex
 
 This bot allows you to call on a bot to provide
