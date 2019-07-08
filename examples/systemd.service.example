@@ -1,0 +1,10 @@
+Unit]
+Description=matrix_translation_bot
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=[user]
+ExecStart=/home/[user]/bot/matrix_translation_bot

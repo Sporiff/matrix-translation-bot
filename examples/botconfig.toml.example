@@ -1,0 +1,6 @@
+user = "bot_account_username"
+password = "your_password_here"
+homeserver_url = "https://matrix.org"
+key = "yandex_api_key"
+prefix = "%"
+command = "translate"

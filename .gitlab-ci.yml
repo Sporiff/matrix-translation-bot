@@ -1,0 +1,13 @@
+image: 'rust:latest'
+
+stages:
+  - test
+
+test:
+  stage: test
+  tags: [gitlab-org]
+  before_script:
+    - rustc --version
+    - cargo --version
+  script:
+    - RUSTFLAGS="-D warnings" CARGO_INCREMENTAL=1 RUST_BACKTRACE=1 cargo test -- --nocapture
